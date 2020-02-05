@@ -6,16 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jason Michaels</title>
     <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="./uikit.min.css" />
 
     <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
+    <script src="./uikit.min.js"></script>
+    <script src="./uikit-icons.min.js"></script>
 
     </head>
 <body>
 <div class="uk-section uk-section-default uk-height-viewport">
-    <div class="uk-container uk-position-center ">
+    <div class="uk-container uk-position-center" 
+      uk-scrollspy="cls: uk-animation-fade; repeat: true">
 
         <h3>Section Default</h3>
 
@@ -35,7 +36,9 @@
 </div>
 
 <div class="uk-section uk-section-secondary uk-light uk-height-viewport">
-    <div class="uk-container">
+    <div class="uk-container"
+      uk-scrollspy="cls: uk-animation-fade; repeat: true">
+
 
         <h3>Section Secondary</h3>
 
@@ -54,8 +57,8 @@
     </div>
 </div>
 
-<div class="uk-section-default uk-height-viewport">
-    <div class="uk-section uk-light uk-background-cover" style="background-image: url(images/dark.jpg)">
+<div class="uk-section-default">
+    <div class="uk-section uk-light uk-background-cover" style="background-image: url(https://getuikit.com/docs/images/dark.jpg)">
         <div class="uk-container">
 
             <h3>Section with Images</h3>
